@@ -1,0 +1,265 @@
+html{
+    scroll-behavior: smooth;
+    font-size: 18px;
+}
+
+
+header a{
+    color: white;
+    transition: .2s ease;
+    -o-transition: .2s ease;
+    -moz-transition:.2s ease;
+    -webkit-transition: .2s ease;
+    width: 50px;
+    margin-right: 70px;
+    font-weight: 600;
+    text-shadow: 3px white;
+}
+
+header a:hover{
+    color:  rgba(16, 197, 0, 1);
+    transform: scale(1.3)
+}
+
+nav{
+    justify-content: space-between;
+    transition:  .5s ease;
+    text-shadow: white 5px;
+}
+
+
+
+header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: background-color .5s ease;
+    z-index: 1000;
+    color: white;
+}
+
+section{
+    box-shadow: 0 3px 1rem rgba(0,0,0,.1);
+    margin-top: 100px;
+    padding: 15px;
+}
+
+
+/*Apply styles after scroll*/
+.scrolling-active{
+    background-color: rgba(16, 197, 0, 1);
+    box-shadow: 0 3px 1rem rgba(0,0,0,.1);
+    color: white;
+    transform: scale(.9);
+    transition: ease .5s;
+}
+
+.scrolling-active .nav{
+    height: 70px;
+    transition: ease .5s;
+}
+
+.scrolling-active  a{
+    color: white;
+    transition: ease .5s;
+}
+
+.scrolling-active  button{
+    color: white;
+}
+
+.scrolling-active  a:hover{
+    color: #313131;
+    transform:scale(1.3)
+}
+/*Apply styles after scroll end*/
+
+
+
+.caption{
+  font-size: 40px;
+  text-shadow: 3px white;;
+}
+
+.content-frame{
+    margin: 70px 0px 70px 0px;
+}
+
+
+
+.titles{
+    font-size: 48px;
+    text-emphasis: shadow 5px;
+    
+}
+
+
+.annoucements-container{
+    
+    z-index: 1000;
+    position: absolute;
+    top:40px;
+    right:0;
+}
+
+.annoucements{
+    overflow-y: scroll;
+    width: 400px;
+    max-height: 450px;
+    
+    padding: 7px;
+    scroll-behavior: smooth;
+}
+
+
+
+.announce-box{
+    width: 350px;
+    height: 200px;
+    display: inline-table;
+    color: rgb(93, 95, 252);
+    border-left: solid 5px rgb(93, 95, 252);
+    padding: 5px;
+    font-size: 17px;
+    font-weight: 600;
+    margin: 0px 5px 0px 10px;
+    box-shadow: red 54px;
+    text-shadow:  6px rgb(93, 95, 252);
+    background-color:  rgba(255, 255, 255, 0.13); 
+}
+
+
+
+
+.statistics {
+  
+   font-size: 20px;
+   font-weight: 600;
+}
+
+.comments{
+    max-height: auto;
+    color: rgb(93, 95, 252);
+    align-content: center;
+    padding: 3px;
+    text-shadow: white 7px;
+    background-color:rgba(93, 96, 252, 0.233);
+    box-shadow: 7px lightgray;
+    display: inline-block;
+    border-left:   4px  rgb(93, 95, 252) solid;
+    border-right:   4px  rgb(93, 95, 252) solid;
+}
+
+.comments span{
+    height: auto;
+    max-width:70%;
+}
+
+.buttons{
+    margin: 50px 0px 30px 0px;
+}
+.buttons a{
+    background-color: rgb(244, 248, 7);
+    padding: 12px 18px 12px 18px;
+    border-radius: 5%;
+    color: white;
+    transition: ease .5s;
+    text-decoration: none;
+}
+
+
+.buttons a:hover{
+    background-color: rgba(16, 197, 0, 1);
+    transform: scale(1.2);
+    color: white;
+    text-decoration: none;
+}
+
+
+footer{
+    background-color:  rgba(16, 197, 0, 1);
+    color: white;
+    padding: 20px;
+    margin-top: 50px;
+    font-size: 14px;
+}
+
+footer ul{
+    list-style-type: none;
+}
+
+footer ul a{
+    color: white;
+    text-decoration: none;
+    margin: 3px;
+}
+
+footer ul a:hover{
+    color: rgb(244, 248, 7);
+   font-size: 16px;
+    text-decoration: none;
+}
+
+footer>.row>.col-md-4{
+    box-shadow: 0 3px 1rem rgba(0,0,0,.1);
+}
+
+
+/*  academics  */
+.image-resizable{
+    width: 100%;
+    transition: ease .5s;
+}
+.admission{
+    width: 70%;
+    max-height: 500px;
+    color: rgb(93, 95, 252);
+    background-color:rgba(93, 96, 252, 0.233);
+    border-left: 7px  rgb(93, 95, 252) solid;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+
+
+.prizes-caption{
+    width: 270px;
+    max-height: 200px;
+    background-color: rgba(248, 192, 7, 0.904);
+    text-shadow: black 10px;
+    padding: 5px;
+    color: white;
+}
+
+
+
+/* boarding*/
+
+.photos{
+    margin: 90px 0px 50px 0px;
+}
+
+.more-photos{
+    width: 100px;
+    height: 50px;
+    margin-top: 20px;
+    transition: ease .5s;
+}
+
+.more-photos:hover{
+    background-color: rgba(248, 192, 7, 0.904);
+}
+
+.gallery img{
+     
+     transition: ease .5s;
+     max-height: 200px;
+     max-width: 250px;
+}
+
+.gallery img:hover{
+   transform: scale(1.1);
+   border:  4px .5px 4px .5px solid rgba(16, 197, 0, 1);
+   box-shadow: 2px 2px 2px 2px lightgrey;
+}
