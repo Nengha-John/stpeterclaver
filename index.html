@@ -1,30 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>
-           St.Peter Claver HS,Dodoma 
-        </title>
+        <title>Welcome To St Peter Claver </title>
+        <!--proper view in all devices-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- title of the page for SEO optimization-->
+        <meta name="title" content="St.Peter Claver High School-The Jesuit High School in Dodoma.">
+        <!--Description of the page For SEO-->
+        <meta name="description" content=" With a primary focus on giving you the best Jesuit education,
+        we infuse Jesuit principles into both the curriculum and the student experience at St.Peter Claver. 
+        Finding God in all things is just one of the values on which St. Ignatius founded 
+        the Jesuit religious order more than 470 years ago. On campus, you’ll see members of 
+        the Jesuit community as your instructors, pastors, chaplains and university administration and staff.">
+        <!--Author of the page-->
+        <meta name="author" content="Nengha.JM,Klimax Technologies.">
+        <!--Character encoding-->
+        <meta charset="UTF-8">
         <link rel="stylesheet" type="text/css" href="styles/flaticon.css">
         <link rel="stylesheet" href="styles/mains.css" type="text/css">
         <link rel="stylesheet" href="styles/bootstrap.min.css" type="text/css">
-        <script src="https://use.fontawesome.com/e01e4ec42c.js"></script>
-
+        <link rel="apple-touch-icon" sizes="180x180" href="images/icons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="images/icons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/images/icons/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <script src="scripts/main.js"></script>
     </head>
-    <body>
+    <body class="body">
      <div class="fluid-container">
-         <!--navbar-->
-          <header>
-          <img src="images/insp2.jpg" width="50px" height="45px" class="navbar-brand ml-1 mb-2 mt-3">
-          <b style="font-size: 24px;text-shadow: white 10px">St.Peter Claver High School</b></img>
-          <nav class="navbar navbar-expand-lg float-right">
-            <button class="navbar-toggler" style="color:white" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-             <img src="images/list-with-dots.png" width="50px" height="50px">
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
+      <!--navbar-->
+      <header>
+        <div class="navbar-brand">
+        <img src="images/logo.png" width="50px" height="65px" class=" nav-brand  ">
+        <b class="" style="font-size: 30px;text-shadow: white 10px">St.Peter Claver,HS</b></img>
+      </div>
+        <nav class="navbar navbar-expand-lg float-right">
+          <button class="navbar-toggler float-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          </button>
+          <!--Navigation links-->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="#">Home <div class="sr-only">(current)</div></a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="academics.html">Academics</a>
@@ -33,422 +50,414 @@
                   <a class="nav-link" href="boarding.html">Boarding</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="www.spchsalumni.blogspot.com">Alumni</a>
+                  <a class="nav-link" href="https://spchsalumni.blogspot.com/">Alumni</a>
                 </li>
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     More
                   </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color:  rgba(16, 197, 0, 1);color: white;">
                     <a class="dropdown-item" href="academics.html#admission">Admission</a>
                     <a class="dropdown-item" href="academics.html#roll-of-honour">Roll of Honour</a>
-                    <a class="dropdown-item" href="#">Calendar</a>
+                    <a class="dropdown-item" href="calendar.html">Calendar</a>
                   </div>
                 </li>
               </ul>
              </div>
           </nav>
-        </header>
+      </header>
    
-      <!--Slideshow-->
+      <!--Image with welcome text amd announcements-->
       <topbar>
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval= "5000" >
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="d-block w-100"  src="images/insp2.jpg" height="600px" alt="First slide">
-            <div class="carousel-caption">
-            <p class="caption">First Slide</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="images/insp1.jpg" height="600px" alt="Second slide">
-            <p class="carousel-caption">Second Slide</p>
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="images/qt2.jpg"  height="600px" alt="Third slide">
-            <p class="carousel-caption">Third Slide</p>
-          </div>
+        <img src="images/topimage.jpg" style="width: 100%; max-height: 500px;" class="image-resizable">
+        <div class="welcome">
+          <p>Welcome to<br>St.Peter Claver<br> High School,<br>Dodoma.</p>
         </div>
-         <!--annoucements-->
-      <div class="  annoucements-container " id="announce">
-        <center> <p style="color: rgb(93, 95, 252);font-size: 36px;">Announcements</p></center>
-          <div class="annoucements">
-          <div class="  announce-box ">
-            <b>Headmaster.</b><br>
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br>
-            <em style="font-size: 14px;">Updated: 20/10/2020</em><br>
-          </div>
-          <div class="  announce-box ">
-            <b>Headmaster.</b><br>
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br>
-            <em style="font-size: 14px;">Updated: 20/10/2020</em><br>
-          </div>
-          <div class="  announce-box ">
-            <b>Headmaster.</b><br>
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br>
-            <em style="font-size: 14px;">Updated: 
-            <script>
-            
-            </script></em><br>
-          </div>
-          </div>
-        </div>
-        <!--
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>-->
-      </div>
-      </div>
-      
-     
-      </topbar>
-   
 
-      <!--academics-->
+       <!--Announcements-->
+        <div id="news" class="announcements">
+          <div class="news-box">
+            <p> The announcements goes here<br>
+            <em style="font-size: 14px;">Updated: Date goes here.</em></p>
+          </div>
+          <div class="news-box">
+            <p> The announcements goes here<br>
+            <em style="font-size: 14px;">Updated: Date goes here.</em></p>
+          </div>
+          <div class="news-box">
+            <p> The announcements goes here<br>
+            <em style="font-size: 14px;">Updated: Date goes here.</em></p>
+          </div>
+          <div class="news-box">
+            <p> The announcements goes here<br>
+            <em style="font-size: 14px;">Updated: Date goes here.</em></p>
+          </div>
+        </div>
+      </topbar>
+      </div>
+      <!--Full body container-->
       <div class="container">
         <!--statistics-->
         <section class="statistics" style="padding: 50px 20px 50px 20px">
-          <center>
-        <div class="row " >
-          <div class="col-lg-4 "><strong><b style="font-size:48px; "><img src="images/smile.png" width="100px" height="100px" style="margin-top: 50px;"><br>991</b><br>Happy Students.</strong></div>
-          <div class="col-lg-4"><strong><b style="font-size:48px;"><img src="images/briefcase.png" width="100px" height="100px" style="margin-top:50px;"><br>230</b><br>Professional Staff</strong></div>
-          <div class="col-lg-4"><strong><b style="font-size:48px;"><img src="images/building-front.png" width="100px" height="100px" style="margin-top:50px;"><br>36</b><br>Equiped Classrooms.</strong></div>
-        </div><br><br>
-        <div class="row " >
-          <div class="col-lg-4 "><strong><b style="font-size:48px;"><img src="images/heart-shape-silhouette.png" width="100px" height="100px" style="margin-top: 50px;"><br>1000+</b><br>Accomodation.</strong></div>
-          <div class="col-lg-4"><strong><b style="font-size:48px;"><img src="images/vintage-key-outline.png" width="100px" height="100px" style="margin-top: 50px;"><br>2</b><br>Lecture Rooms.</strong></div>
-          <div class="col-lg-4"><strong><b style="font-size:48px;"><img src="images/book.png" width="100px" height="100px" style="margin-top: 50px;"><br>15+</b><br>Subjects taught.</strong></div>
-        </div>
-      </center>
-      </section>
-
-
+         <center>
+           <div class="row">
+             <div class="col-lg-4 "><strong><b style="font-size:48px; "><img src="images/smile.png" width="100px" height="100px" style="margin-top: 50px;"><br>991</b><br>Happy Students.</strong></div>
+             <div class="col-lg-4"><strong><b style="font-size:48px;"><img src="images/briefcase.png" width="100px" height="100px" style="margin-top:50px;"><br>230</b><br>Professional Staff</strong></div>
+             <div class="col-lg-4"><strong><b style="font-size:48px;"><img src="images/building-front.png" width="100px" height="100px" style="margin-top:50px;"><br>36</b><br>Equiped Classrooms.</strong></div>
+           </div>
+           <br><br>
+           <div class="row " >
+              <div class="col-lg-4 "><strong><b style="font-size:48px;"><img src="images/heart-shape-silhouette.png" width="100px" height="100px" style="margin-top: 50px;"><br>1000+</b><br>Accomodation.</strong></div>
+              <div class="col-lg-4"><strong><b style="font-size:48px;"><img src="images/vintage-key-outline.png" width="100px" height="100px" style="margin-top: 50px;"><br>2</b><br>Lecture Rooms.</strong></div>
+              <div class="col-lg-4"><strong><b style="font-size:48px;"><img src="images/book.png" width="100px" height="100px" style="margin-top: 50px;"><br>15+</b><br>Subjects taught.</strong></div>
+           </div>
+         </center>
+        </section>
+        
         <!--aademics-->
         <section class="academics">
           <div class="float-right titles">Academics</p></div><br>
           <div class="row content-frame">
             <div class="col-lg-5">
-              <center>
-              <img src="images/qt3.jpg" width="450px" height="400px" alt="academics" class="rounded " style="margin-bottom: 20px;"></center>
-            </div><br>
+             <div  class=" academic-animation" ></div>
+            </div>
             <div class="col-lg-7">
               <center>
-               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-               </p></center>
+               <p>
+                Education is the foundation of the future life of our children.
+                 In this, we aim at building our students effectively into the proper academic track that they would be the drive in making the difference in the society. Our school not only promotes thinking in class, 
+                 but also in real life  by taking part in different competitions, seminars and study tours so as to build students in applying the knowledge acquired in class. With sufficient professional staff,
+                  we ensure that our students excel academically in the National Exams as well as internal exams by closely follows ups in academic trends, 
+                  giving advice to our students in improving academic performance and also constant consultations.
+               </p>
+              </center>
               <div class="buttons">
                 <center><a href="academics.html" class="flex-center">More..</a>
                   <a href="academics.html#admission" style="background-color:rgb(56, 59, 252);margin-left: 30px;">Admission</a></center>
               </div>
             </div>
-         </div>
+          </div>
         </section>
+
+        <!--Comments On Academics-->
         <section>
          <center>
           <div class="row">
              <div class="comments col-lg-4">
-               <img src="images/insp2.jpg" width="60px" height="60px" style="border-radius: 50%;"><br>
-               <strong>Imani Matthew Manyanda,</strong> <br><em style="font-size:15px;">Form Four S.<br>
-               <span style="width: 70%;"><i style="font-size: 30px">&OpenCurlyDoubleQuote;</i> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-               uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-               <i style="font-size: 30px">&CloseCurlyDoubleQuote;</i></span></em>
+               <!--Commentor's Image-->
+               <img src="images/insp2.jpg" width="80px" height="80px" style="border-radius: 50%;"><br>
+               <!--Commentor-->
+               <strong>Imani Matthew Manyanda,</strong> <br>
+               <!--Class-->
+               <em style="font-size:15px;">Form Four S.</em><br>
+                <!--Comment-->
+               <div >
+                  <p>Comments from The Claverian Community</p> 
+               </div>
              </div>
              <div class="comments  col-lg-4">
-              <img src="images/insp2.jpg" width="60px" height="60px" style="border-radius: 50%;"><br>
-              <strong>Imani Matthew Manyanda,</strong> <br><em style="font-size:15px;">Form Four S.<br>
-              <span style="width: 70%;"><i style="font-size: 30px">&OpenCurlyDoubleQuote;</i> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-              uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-              <i style="font-size: 30px">&CloseCurlyDoubleQuote;</i></span></em>
-            </div>
-            <div class="comments  col-lg-4">
-              <img src="images/insp2.jpg" width="60px" height="60px" style="border-radius: 50%;"><br>
-              <strong>Imani Matthew Manyanda,</strong> <br><em style="font-size:15px;">Form Four S.<br>
-              <span style="width: 70%;"><i style="font-size: 30px">&OpenCurlyDoubleQuote;</i> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-              uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-             <i style="font-size: 30px">&CloseCurlyDoubleQuote;</i></span></em>
-            </div>
+               <img src="images/insp2.jpg" width="80px" height="80px" style="border-radius: 50%;"><br>
+               <strong>Imani Matthew Manyanda,</strong> <br>
+               <em style="font-size:15px;">Form Four S.<br></em>
+               <div >
+                
+                   Comments from The Claverian Community
+               
+               </div>
+             </div>
+             <div class="comments  col-lg-4">
+              <img src="images/insp2.jpg" width="80px" height="80px" style="border-radius: 50%;"><br>
+              <strong>Imani Matthew Manyanda,</strong> <br>
+              <em style="font-size:15px;">Form Four S.<br></em>
+              <div >
+                
+                Comments from The Claverian Community
+              
+              </div>
+             </div>
           </div>
-      </center>
+         </center>
         </section>
 
          <!--boarding life-->
          <section class="boarding">
-         <div class="float-left"><p class=" titles ">Boarding life</p></div><br>
-         <div class="row content-frame">
+           <div class="float-left"><p class=" titles ">Boarding life</p></div><br>
+           <div class="row content-frame">
             <div class="col-lg-7">
-              <center>
-               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
-              </center>
-                <div class="buttons">
-                  <center>
-                    <a href="boarding.html" class="flex-center">More..</a>
-                    <a href="academics.html#admission" style="background-color:rgb(56, 59, 252);margin-left: 30px;">Admission</a>
-                  </center>
-                </div>
-            </div>
-           <div class="col-lg-5">
              <center>
-              <img src="images/insp2.jpg" width="450px" height="400px" alt="academics" class="rounded" >
-            </center>
-           </div>
-         </div>
-         </section>
-         <section>
-         <center>
-         <div class="row">
-          <div class="comments col-lg-4">
-            <img src="images/insp2.jpg" width="60px" height="60px" style="border-radius: 50%;"><br>
-            <strong>Imani Matthew Manyanda,</strong> <br><em style="font-size:15px;">Form Four S.<br>
-            <span style="width: 70%;"><i style="font-size: 30px">&OpenCurlyDoubleQuote;</i> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-             <i style="font-size: 30px">&CloseCurlyDoubleQuote;</i></span></em>
-          </div>
-          <div class="comments col-lg-4">
-           <img src="images/insp2.jpg" width="60px" height="60px" style="border-radius: 50%;"><br>
-           <strong>Imani Matthew Manyanda,</strong> <br><em style="font-size:15px;">Form Four S.<br>
-           <span style="width: 70%;"><i style="font-size: 30px">&OpenCurlyDoubleQuote;</i> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-           uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-          <i style="font-size: 30px">&CloseCurlyDoubleQuote;</i></span></em>
-         </div>
-         <div class="comments col-lg-4">
-           <img src="images/insp2.jpg" width="60px" height="60px" style="border-radius: 50%;"><br>
-           <strong>Imani Matthew Manyanda,</strong> <br><em style="font-size:15px;">Form Four S.<br>
-           <span style="max-width: 70%;"><i style="font-size: 30px">&OpenCurlyDoubleQuote;</i> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-           uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-           <i style="font-size: 30px">&CloseCurlyDoubleQuote;</i></span></em>
-         </div>
-       </div>
-      </center>
-      </section>
-
-           <!--cCA-->
-           <section class="cca">
-          <div class="float-right"><p class=" titles ">Co-Curricular Activities</p></div><br>
-          <div class="row content-frame">
-            <div class="col-lg-5">
-              <center>
-              <img src="images/qt2.jpg" width="450px" height="400px" alt="academics" class="rounded " style="margin-bottom: 20px;">
-            </div><br>
-            <div class="col-lg-7"  ">
-               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+               <p>
+                We believe that good environment is among the chief factors that boost student’s performance. 
+                In this, our school has a beautiful environment made up of enough classrooms, 
+                library dining halls and accomodations enough for 1000+ students. 
+                We ensure a cleans and sanitary environment by holding our slogan 
+                “St.Peter Claver is a green campus, We plant trees, We reuse, We recycle”. 
+                Also, the school has proper hostility for students in which students are well-shaped in good behaviours 
+                following the Jesuit way of life and also through departments like the boarding that ensures best living conditions,
+                guidance and counselling and the discipline office that maintains discipline among the students.
                </p>
-              </center>
-               <div class="buttons">
-                <center>
-                  <a href="boarding.html#CCA" class="flex-center">More..</a>
-                  <a href="gallery.html" style="background-color:rgb(56, 59, 252);margin-left: 30px;">Gallery</a>
+             </center>
+             <div class="buttons">
+               <center>
+                 <a href="boarding.html" class="flex-center">More..</a>
+                 <a href="academics.html#admission" style="background-color:rgb(56, 59, 252);margin-left: 30px;">Admission</a>
                 </center>
-              </div>
-              
+             </div>
             </div>
-         </div>
-           </section>
-           <section>
-         <center>
-          <div class="row">
-            <div class="comments col-lg-4">
-              <img src="images/insp2.jpg" width="60px" height="60px" style="border-radius: 50%;"><br>
-              <strong>Imani Matthew Manyanda,</strong> <br><em style="font-size:15px;">Form Four S.<br>
-              <span style="width: 70%;"><i style="font-size: 30px">&OpenCurlyDoubleQuote;</i> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-              uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-              <i style="font-size: 30px">&CloseCurlyDoubleQuote;</i></span></em>
-            </div>
-            <div class="comments col-lg-4">
-             <img src="images/insp2.jpg" width="60px" height="60px" style="border-radius: 50%;"><br>
-             <strong>Imani Matthew Manyanda,</strong> <br><em style="font-size:15px;">Form Four S.<br>
-             <span style="width: 70%;"><i style="font-size: 30px">&OpenCurlyDoubleQuote;</i> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-             uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-            <i style="font-size: 30px">&CloseCurlyDoubleQuote;</i></span></em>
+            <div class="col-lg-5"><div class="boarding-animation"></div></div>
            </div>
-           <div class="comments col-lg-4">
-             <img src="images/insp2.jpg" width="60px" height="60px" style="border-radius: 50%;"><br>
-             <strong>Imani Matthew Manyanda,</strong> <br><em style="font-size:15px;">Form Four S.<br>
-             <span style="width: 70%;"><i style="font-size: 30px">&OpenCurlyDoubleQuote;</i> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-             uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-             <i style="font-size: 30px">&CloseCurlyDoubleQuote;</i></span></em>
-           </div>
-         </div>
-        </center>
-        </section>
+         </section>
 
-          <!--alumni-->
-          <section class="alumni">
-          <div class="float-left"><p class=" titles ">Alumni</p></div><br>
-          <div class="row content-frame">
-          <div class="col-lg-7">
-            <center>
-           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-           </p>
-          </center>
-           <div class="buttons">
-            <center>
-              <a href="www.spchsalumni.blogspot.com" class="flex-center">More..</a>
-              <a href="www.spchsalumni.blogspot.com" style="background-color:rgb(56, 59, 252);margin-left: 30px;">Join Us</a>
-            </center>
-          </div>
-           
-        </div>
-         <div class="col-lg-5">
-           <center>
-                 <img src="images/insp1.jpg" width="450px" height="400px" alt="academics" class="rounded ">
-                </center>
+         <!--Comments On Boarding-->
+         <section>
+          <center>
+           <div class="row">
+             <div class="comments col-lg-4">
+               <!--Image Of Commentor-->
+               <img src="images/insp2.jpg" width="80px" height="80px" style="border-radius: 50%;"><br>
+               <!-- Name Of Commentor-->
+               <strong>Imani Matthew Manyanda,</strong> <br>
+               <!--Class-->
+               <em style="font-size:15px;">Form Four S.<br></em>
+                <!--Comment-->
+               <div >
+                 
+                   Comments from The Claverian Community
+               
                </div>
-            </div>
-            </section>
-            <section>
-            <center>
-            <div class="row">
-              <div class="comments col-lg-4">
-                <img src="images/insp2.jpg" width="60px" height="60px" style="border-radius: 50%;"><br>
-                <strong>Imani Matthew Manyanda,</strong> <br><em style="font-size:15px;">Form Four S.<br>
-                <span style="width: 70%;"><i style="font-size: 30px">&OpenCurlyDoubleQuote;</i> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-               <i style="font-size: 30px">&CloseCurlyDoubleQuote;</i></span></em>
-              </div>
-              <div class="comments col-lg-4">
-               <img src="images/insp2.jpg" width="60px" height="60px" style="border-radius: 50%;"><br>
-               <strong>Imani Matthew Manyanda,</strong> <br><em style="font-size:15px;">Form Four S.<br>
-               <span style="width: 70%;"><i style="font-size: 30px">&OpenCurlyDoubleQuote;</i> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-               uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-               <i style="font-size: 30px">&CloseCurlyDoubleQuote;</i></span></em>
              </div>
              <div class="comments col-lg-4">
-               <img src="images/insp2.jpg" width="60px" height="60px" style="border-radius: 50%;"><br>
-               <strong>Imani Matthew Manyanda,</strong> <br><em style="font-size:15px;">Form Four S.<br>
-               <span style="width: 70%;"><i style="font-size: 30px">&OpenCurlyDoubleQuote;</i> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-               uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-              <i style="font-size: 30px">&CloseCurlyDoubleQuote;</i></span></em>
+               <img src="images/insp2.jpg" width="80px" height="80px" style="border-radius: 50%;"><br>
+               <strong>Imani Matthew Manyanda,</strong> <br>
+               <em style="font-size:15px;">Form Four S.<br>
+               <div >
+                
+                   Comments from The Claverian Community 
+               </div></em>
+             </div>
+             <div class="comments col-lg-4">
+               <img src="images/insp2.jpg" width="80px" height="80px" style="border-radius: 50%;"><br>
+               <strong>Imani Matthew Manyanda,</strong> <br>
+               <em style="font-size:15px;">Form Four S.<br></em>
+               <div style="max-width: 70%;">
+                
+                   Comments from The Claverian Community 
+               
+               </div>
              </div>
            </div>
+          </center>
+         </section>
+
+         <!--Co-Curricular Activities-->
+         <section >
+          <div class="float-right"><p class=" titles ">Co-Curricular Activities</p></div><br>
+          <div class="row content-frame">
+             <div class="col-lg-5">
+              <div class="cca-animation"></div>
+             </div><br>
+             <div class="col-lg-7">
+               <p>
+                  St.Peter Claver is a land of talents. Our students won’t not only excel academically, 
+                  but also get an opportunity to develop and strengthen their natural talents.
+                  Co-curricular activities allow students to build up their passions in which students get involved in different
+                  activities such as sports, arts, culture and leadership through clubs, seminars, talent shows, 
+                  external and internal competitions as well as cooperation with other institutes. 
+                  We ensure that our students are built in the best foundations to make a difference in the society by
+                  involvement in international seminars such as African Leadership Academy Model African Union (ALAMAU)
+                  in which new African Leaders are born.
+               </p>
+               <div class="buttons">
+                 <center>
+                  <a href="boarding.html#CCA" >More..</a>
+                  <a href="gallery.html" style="background-color:rgb(56, 59, 252);margin-left: 30px;">Gallery</a>
+                 </center>
+               </div>
+             </div>
           </div>
-      
-      </section>
-    
+         </section>
+         <section>
+           <center>
+             <div class="row">
+               <div class="comments col-lg-4">
+                 <!--Commentor's Image-->
+                 <img src="images/insp2.jpg" width="80px" height="80px" style="border-radius: 50%;"><br>
+                 <!--Commentor's Name-->
+                 <strong>Imani Matthew Manyanda,</strong> <br>
+                 <!--Class-->
+                 <em style="font-size:15px;">Form Four S.<br></em>
+                 <div >
+                 
+                    Comments from The Claverian Community
+                
+                 </div>
+               </div>
+               <div class="comments col-lg-4">
+                 <img src="images/insp2.jpg" width="80px" height="80px" style="border-radius: 50%;"><br>
+                 <strong>Imani Matthew Manyanda,</strong> <br>
+                 <em style="font-size:15px;">Form Four S.<br></em>
+                 <div >
+                  
+                      Comments from The Claverian Community
+                 
+                 </div>
+               </div>
+               <div class="comments col-lg-4">
+                  <img src="images/insp2.jpg" width="80px" height="80px" style="border-radius: 50%;"><br>
+                  <strong>Imani Matthew Manyanda,</strong> <br>
+                  <em style="font-size:15px;">Form Four S.<br></em>
+                  <div >
+                   
+                      Comments from The Claverian Community
+                  
+                  </div>
+               </div>
+             </div>
+           </center>
+         </section>
 
-
-        <!--footer-->
-        <footer class="fluid-container">
-          <center>
+         <!--SPCHS Alumni-->
+         <section>
+           <div class="float-left"><p class=" titles ">Alumni</p></div><br>
+           <div class="row content-frame">
+             <div class="col-lg-7">
+               <center>
+                 <p>
+                   St.Peter Claver Alumni is the community of all graduates of St.Peter Claver High School. 
+                   We aim at returning to the community the values we learnt while at St.Peter Claver High School.
+                   We also aim to build love , unity and solidarity among all Claverians for we are all one family.
+                   We take part in many activities outside the school like charities, 
+                   sports and games and also supporting our young brothers and sisters in their studies through
+                   guidance and other activies like sports,games,exhibitions and talent shows. We are driven by the Jesuit value
+                   <b>”Magis”</b>, meaning <b>“More”</b>. We give more to the society, that which we acquired from St.Peter Claver High School.
+                   Your donations could help us in smoothing our service to the world!
+                 </p>
+               </center>
+               <div class="buttons">
+                 <center>
+                   <a href="https://spchsalumni.blogspot.com/" class="flex-center">More..</a>
+                   <a href="https://spchsalumni.blogspot.com/" style="background-color:rgb(56, 59, 252);margin-left: 30px;">Join Us</a>
+                 </center>
+               </div>
+             </div>
+             <div class="col-lg-5"><div class="alumni-animation"></div></div>
+           </div>
+         </section>
+         <section>
+           <center>
+              <div class="row">
+                 <div class="comments col-lg-4">
+                   <!--Commentor's Image-->
+                   <img src="images/insp2.jpg" width="80px" height="80px" style="border-radius: 50%;"><br>
+                   <!--Commentor's Name-->
+                   <strong>Imani Matthew Manyanda,</strong> <br>
+                   <!--Name-->
+                   <em style="font-size:15px;">Form Four S.<br></em>
+                   <div >
+                     
+                       Comments from The Claverian Community
+                   
+                   </div>
+                 </div>
+                 <div class="comments col-lg-4">
+                   <img src="images/insp2.jpg" width="80px" height="80px" style="border-radius: 50%;"><br>
+                   <strong>Imani Matthew Manyanda,</strong> <br>
+                   <em style="font-size:15px;">Form Four S.<br></em>
+                   <div >
+                    
+                       Comments from The Claverian Community
+                   
+                   </div>
+                 </div>
+                 <div class="comments col-lg-4">
+                   <img src="images/insp2.jpg" width="80px" height="80px" style="border-radius: 50%;"><br>
+                   <strong>Imani Matthew Manyanda,</strong> <br>
+                   <em style="font-size:15px;">Form Four S.<br></em>
+                   <div >
+                    
+                       Comments from The Claverian Community
+                   </div></em>
+                 </div>
+              </div>
+         </section>
+     </div>
+         
+     <!--footer-->
+     <footer class="fluid-container">
+        <center>
         <div class="row">
             <div class="col-lg-4" style="line-height: 35px;">
-              
-                <strong>Contact info:</strong><br>
-               <strong> Opening hours:</strong> &nbsp;0800hrs-1600hrs.<br>
-               <strong>Phone: </strong>  &nbsp;&nbsp;&nbsp;0752334290/  0734392409/  0622770911<br>
-                <strong>Email: </strong>&nbsp;  headmaster@gmail.com,<br>
-               
-              <a href="www.instagram.com/spchsdodoma" style="text-decoration: none;color: white;"><i class="fa fa-instagram" style="font-size: 20px;"></i>&nbsp;</a>
+              <!--Address-->
+              <strong>Contact info:</strong><br>
+              <strong> Opening hours:</strong> &nbsp;0800hrs-1600hrs.<br>
+              <strong>Phone: </strong>  &nbsp;&nbsp;&nbsp;0752334290/  0734392409/  0622770911<br>
+              <strong>Email: </strong>&nbsp;  headmaster@gmail.com,<br>
+               <!--Social contacts-->
+              <a href="www.instagram.com/spchsdodoma" style="text-decoration: none;color: white;">
+                <i class="fa fa-instagram" style="font-size: 20px;"></i>
+              </a>
               &nbsp;&nbsp;&nbsp;
-              <a href="www.instagram.com/spchsdodoma" style="text-decoration: none;color: white;"><i class="fa fa-youtube" style="font-size: 20px;"></i>&nbsp;</a>
+              <a href="www.instagram.com/spchsdodoma" style="text-decoration: none;color: white;">
+                <i class="fa fa-youtube" style="font-size: 20px;"></i>
+              </a>
               <br><br>
-              <div style="margin-bottom: 23px;">
-              <img src="images/insp2.jpg" width="100px" height="90">
-              <img src="images/insp2.jpg" width="100px" height="90px">
-              <img src="images/insp2.jpg" width="100px" height="90px">
-            </div>
-            </div>
-            <div class="col-lg-4">
-             <strong>Links:</strong>
-              <div class="row">
-              <div class="col-6">
-                <ul>
-                  <li><a href="index.html">Home</a></li>
-                  <li><a href="academics.html">Academics</a></li>
-                  <li><a href="boarding.html">Boarding life</a></li>
-                  <li><a href="boarding.html#CCA">Co-curricular Activities</a></li>
-                  <li><a href="www.spchsalumni.blogspot.com">Alumni</a></li>
-                  <li><a href="academics.html#admission">Admission</a></li>
-                </ul>
-              </div>
-              <div class="col-6">
-                <ul>
-                  <li><a href="academics.html#roll-of-honour">Roll of Honour</a></li>
-                  <li><a href="#">Jesuits</a></li>
-                  <li><a href="boarding.html#way-of-life">Jesuits Way Of Life.</a></li>
-                  <li><a href="#">St.Benno</a></li>
-                  <li><a href="#">St.Ignatius-Germany</a></li>
-                  <li><a href="calendar.html">Calendar</a></li>
-                </ul>
+              <!--Optional Partners Logos-->
+              <div class="partners">
+                 <img src="images/jesuits.png" width="100px" height="90">
+                 <img src="images/logo.png" width="80px" height="90px">
+                 <img src="images/PNG RGB 1945.png" width="120px" height="90px">
+                 
               </div>
             </div>
-            <br>
-            <div style="margin: 23px 0px 23px 0px;">
-            <img src="images/insp2.jpg" width="100px" height="90">
-            <img src="images/insp2.jpg" width="100px" height="90px">
-            <img src="images/insp2.jpg" width="100px" height="90px">
-          </div>
+            <!--Links Area-->
+            <div class="col-lg-4">
+               <strong>Links:</strong>
+               <div class="row">
+                 <div class="col-6">
+                   <ul>
+                     <li><a href="index.html">Home</a></li>
+                     <li><a href="academics.html">Academics</a></li>
+                     <li><a href="boarding.html">Boarding life</a></li>
+                     <li><a href="boarding.html#CCA">Co-curricular Activities</a></li>
+                     <li><a href="https://spchsalumni.blogspot.com/">Alumni</a></li>
+                   </ul>
+                 </div>
+                 <div class="col-6">
+                    <ul>
+                       <li><a href="academics.html#roll-of-honour">Roll of Honour</a></li>
+                       <li><a href="https://easternafricajesuits.org/">Jesuits</a></li>
+                       <li><a href="boarding.html#way-of-life">Jesuits Way Of Life.</a></li>
+                       <li><a href="gallery.html">Gallery</a></li>
+                       <li><a href="calendar.html">Calendar</a></li>
+                       <li><a href="academics.html#admission">Admission</a></li>
+                    </ul>
+                 </div>
+               </div>
+            
             </div>
             <div class="col-lg-4">
-              <strong>Location:</strong><br>
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.7405775931525!2d35.894018714379655!3d-6.165485662139372!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x184de380e6851c2b%3A0x6ef40b1d92f026e0!2sSt.peter%20Claver%20High%20School!5e0!3m2!1sen!2stz!4v1602513847768!5m2!1sen!2stz" 
-              width="350px" height="300px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-               
+               <strong>Location:</strong><br>
+               <!--google Map location-->
+               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.7405775931525!2d35.894018714379655!3d-6.165485662139372!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x184de380e6851c2b%3A0x6ef40b1d92f026e0!2sSt.peter%20Claver%20High%20School!5e0!3m2!1sen!2stz!4v1602513847768!5m2!1sen!2stz" 
+               style="max-width: 350px;max-height: 300px;" width="350px" height="300px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
             </div>
-          </div>
-        </center>
-      
-          <hr color="white" style="color: white; width: 90%">
-          <center> Icons made by <a href="https://www.flaticon.com/authors/dave-gandy" style="color: white;" title="Dave Gandy">Dave Gandy</a> 
-          from <a href="https://www.flaticon.com/" style="color: white;" title="Flaticon"> www.flaticon.com</a>
-         <br><em style="font-size: 14px;">&copy;Copyright.Klimax Technologies 2020.</em></center>
-        </footer>
-
-
-
-
-
-
-
-
+        </div>
+       </center>
+       <hr color="white" style="color: white; width: 90%">
+       <center>
+         <em style="font-size: 15px;"><b>&copy;Copyright.Klimax Technologies 2020.</b></em>
+       </center>
+     </footer>
+     <!--Scripts-->
      <script>
+       //Change navbar color on scroll
       window.addEventListener('scroll', function () {
           let header = document.querySelector('header');
           let windowPosition = window.scrollY > 400;
           header.classList.toggle('scrolling-active', windowPosition);
-      })
-
-      window.scrollBy({ 
-  top: 100, // could be negative value
-  left: 0, 
-  behavior: 'smooth' 
-});
-  </script>
-
-  <script src="https://use.fontawesome.com/e01e4ec42c.js"></script>
+                                                    })
+     
+     </script>
      <script src="scripts/jquery-3.5.1.min.js"></script>
      <script src="scripts/bootstrap.min.js"></script>
-        
-    </body>
-    
+  </body> 
 </html>

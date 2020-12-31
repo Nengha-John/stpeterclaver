@@ -1,15 +1,15 @@
 html{
     scroll-behavior: smooth;
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: 900;
 }
 
-
 header a{
-    color: white;
-    transition: .2s ease;
-    -o-transition: .2s ease;
-    -moz-transition:.2s ease;
-    -webkit-transition: .2s ease;
+    color: black;
+    transition: .5s ease;
+    -o-transition: .5s ease;
+    -moz-transition:.5s ease;
+    -webkit-transition: .5s ease;
     width: 50px;
     margin-right: 70px;
     font-weight: 600;
@@ -24,25 +24,180 @@ header a:hover{
 nav{
     justify-content: space-between;
     transition:  .5s ease;
-    text-shadow: white 5px;
+    text-shadow: white 5px; 
+   
+}
+
+.toggle-button{
+    color: black;
 }
 
 
 
 header{
     width: 100%;
-    position: fixed;
+    position: relative;
     top: 0;
     left: 0;
     transition: background-color .5s ease;
     z-index: 1000;
-    color: white;
+    color: black;
+    box-shadow: .1px .1px .1px .1px white;
+    background-color: white;
 }
 
+.announcements{
+    width: 30%;
+    max-height: 450px;
+    background-color: rgba(4, 4, 43, 0.295);
+    font-weight: 600;
+    backdrop-filter: blur(10px);
+    position: absolute;
+    top: 120px;
+    left: 6%;
+    z-index: 900;
+    color: white;
+    padding: 2px;
+    overflow: hidden;
+    transition: ease .2s;
+}
+
+.news-box{
+    width: 99%;
+    max-height: 150px;
+    padding: 5px;
+    border-left: solid 4px white;
+    box-shadow: 2px 0px 2px 0px lightgrey;
+    transition: ease .5s;
+    font-weight: 300;
+    text-shadow: 3px black;
+    margin-bottom: 5px;
+    position: relative;
+}
+
+.news-box:hover{
+    height: 100px;
+   
+   
+}
+
+.news-resized{
+    width: 90%;
+    position: relative;
+    margin-top: 40px;
+    background-color:  rgba(4, 4, 43, 0.733);
+    transition: ease .5s;
+}
+
+.welcome{
+    font-size: 70px;
+    font-weight: 700;
+    text-shadow: black 2px;
+    z-index: 900;
+    position: absolute;
+    right: 1%;
+    top: 110px;
+    color: white;
+    letter-spacing: 0px;
+    line-height: 80px;
+}
+
+.welcome-resized{
+    font-size: px;
+    font-weight: 600;
+    text-shadow: black 2px;
+    z-index: 900;
+    position: absolute;
+    color: white;
+    letter-spacing: 0px;
+    
+}
+
+
 section{
-    box-shadow: 0 3px 1rem rgba(0,0,0,.1);
+    box-shadow: 4px 4px 4px 4px rgba(0,0,0,.1);
     margin-top: 100px;
     padding: 15px;
+    
+}
+
+@keyframes academic{
+    0%{background-image: url("../images/academic1.jpg");}
+    50%{background-image: url("../images/academic2.jpg");}
+    100%{background-image: url("../images/academic3.jpg");}
+    
+}
+
+@keyframes boarding{
+    0%{background-image: url("../images/boarding1.jpg");}
+    50%{background-image: url("../images/boarding2.JPG");}
+    100%{background-image: url("../images/boarding3.jpg");}
+}
+
+@keyframes cca{
+    0%{background-image: url("../images/cca2.JPG");}
+    50%{background-image: url("../images/cca3.JPG");}
+    100%{background-image: url("../images/boarding2.JPG");}
+}
+
+@keyframes alumni{
+    0%{background-image: url("../images/alimni1.jpg");}
+    50%{background-image: url("../images/alumni2.jpg");}
+    100%{background-image: url("../images/aumni3.jpg");}
+}
+
+.academic-animation   {
+    width: 100%;
+    height: 400px;
+   
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation-name: academic ;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite; 
+}
+
+.boarding-animation{
+    width: 100%;
+    height: 400px;
+   
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation-name: boarding;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.cca-animation{
+    width: 100%;
+    height: 400px;
+   
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation-name: cca ;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+
+.alumni-animation{
+    width: 100%;
+    height: 300px;
+   
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation-name: alumni ;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
 }
 
 
@@ -51,13 +206,22 @@ section{
     background-color: rgba(16, 197, 0, 1);
     box-shadow: 0 3px 1rem rgba(0,0,0,.1);
     color: white;
-    transform: scale(.9);
     transition: ease .5s;
+    width: 100%;
+    position:fixed;
 }
 
-.scrolling-active .nav{
-    height: 70px;
+.scrolling-active nav{
+    max-height: 70px;
     transition: ease .5s;
+   
+}
+
+
+.scrolling-active .nav-brand{
+    visibility: hidden;
+    width: 0px;
+    font-size: 28px;
 }
 
 .scrolling-active  a{
@@ -95,60 +259,29 @@ section{
 }
 
 
-.annoucements-container{
-    
-    z-index: 1000;
-    position: absolute;
-    top:40px;
-    right:0;
-}
 
-.annoucements{
-    overflow-y: scroll;
-    width: 400px;
-    max-height: 450px;
-    
-    padding: 7px;
-    scroll-behavior: smooth;
-}
-
-
-
-.announce-box{
-    width: 350px;
-    height: 200px;
-    display: inline-table;
-    color: rgb(93, 95, 252);
-    border-left: solid 5px rgb(93, 95, 252);
-    padding: 5px;
-    font-size: 17px;
-    font-weight: 600;
-    margin: 0px 5px 0px 10px;
-    box-shadow: red 54px;
-    text-shadow:  6px rgb(93, 95, 252);
-    background-color:  rgba(255, 255, 255, 0.13); 
-}
 
 
 
 
 .statistics {
-  
    font-size: 20px;
    font-weight: 600;
+   
 }
 
 .comments{
     max-height: auto;
     color: rgb(93, 95, 252);
     align-content: center;
-    padding: 3px;
+    padding: 7px;
     text-shadow: white 7px;
     background-color:rgba(93, 96, 252, 0.233);
     box-shadow: 7px lightgray;
-    display: inline-block;
-    border-left:   4px  rgb(93, 95, 252) solid;
-    border-right:   4px  rgb(93, 95, 252) solid;
+    display: inline;
+    border-left: 4px rgb(93, 95, 252) groove;
+    margin-top: 55px 5px 0px 0px;
+   
 }
 
 .comments span{
@@ -176,13 +309,19 @@ section{
     text-decoration: none;
 }
 
+.rounded{
+    width: 100%;
+    max-width: 600px;
+    max-height: 700px;
+}
+
 
 footer{
     background-color:  rgba(16, 197, 0, 1);
     color: white;
     padding: 20px;
     margin-top: 50px;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 footer ul{
@@ -205,20 +344,26 @@ footer>.row>.col-md-4{
     box-shadow: 0 3px 1rem rgba(0,0,0,.1);
 }
 
+.partners >img{
+    padding-right: 10px;
+}
+
 
 /*  academics  */
 .image-resizable{
     width: 100%;
+    max-height: 600px;
     transition: ease .5s;
 }
 .admission{
     width: 70%;
-    max-height: 500px;
-    color: rgb(93, 95, 252);
+    max-height: 600px;
+    color: rgb(63, 66, 247);
     background-color:rgba(93, 96, 252, 0.233);
     border-left: 7px  rgb(93, 95, 252) solid;
     margin-top: 50px;
     padding: 10px;
+    font-weight: 600;
 }
 
 
@@ -254,12 +399,11 @@ footer>.row>.col-md-4{
 .gallery img{
      
      transition: ease .5s;
-     max-height: 200px;
-     max-width: 250px;
+     margin: 7px;
 }
 
 .gallery img:hover{
-   transform: scale(1.1);
+   transform: scale(1.2);
    border:  4px .5px 4px .5px solid rgba(16, 197, 0, 1);
    box-shadow: 2px 2px 2px 2px lightgrey;
 }
