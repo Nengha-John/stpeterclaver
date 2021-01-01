@@ -272,14 +272,14 @@ section{
 
 .comments{
     max-height: auto;
-    color: rgb(93, 95, 252);
+    color:  rgb(0, 4, 255);
     align-content: center;
     padding: 7px;
     text-shadow: white 7px;
     background-color:rgba(93, 96, 252, 0.233);
     box-shadow: 7px lightgray;
     display: inline;
-    border-left: 4px rgb(93, 95, 252) groove;
+    border-left: 4px  rgb(0, 4, 255) groove;
     margin-top: 55px 5px 0px 0px;
    
 }
