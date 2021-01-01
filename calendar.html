@@ -145,6 +145,17 @@
               header.classList.toggle('scrolling-active', windowPosition);
           })
     
+
+          //scroll effect on other pages
+window.onscroll = function(){scrollFunction()};
+
+function scrollFunction(height){
+    if (document.body.scrollTop > 5 || document.documentElement.scrollTop > 5){
+        document.getElementById('header').style.height = "200px";
+    } else{
+        document.getElementById('header').style.height = "400px";
+    }
+}
          
       </script>
     <script src="scripts/jquery-3.5.1.min.js"></script>

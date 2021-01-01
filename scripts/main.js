@@ -39,14 +39,19 @@ function fontchange(){
     let welkom = document.querySelector(".welcome");
     let widthh = window.innerWidth;
     if (widthh < 500) {
-        welkom.style.fontSize = "5px";
-        welkom.style.lineHeight ="";
-        welkom.style.paddingTop ="";
-        welkom.style.visibility = "hidden";
+        welkom.style.fontSize = "30px";
+        welkom.style.paddingTop ="10px";
+        welkom.style.left ="30%";
+        }
+    if(widthh < 800){
+        welkom.style.paddingTop ="0px;";
+        welkom.style.fontSize = " 80px";
+        welkom.style.lineHeight ="65px";
+        welkom.style.left ="20%";
     }
+    };
     
 
 window.addEventListener("load",fontchange());
 window.addEventListener("resize",fontchange());
-
 
