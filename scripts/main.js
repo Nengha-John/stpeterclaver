@@ -39,7 +39,7 @@ function fontchange(){
     let welkom = document.querySelector(".welcome");
     let widthh = window.innerWidth;
     if (widthh < 500) {
-        welkom.style.fontSize = "30px";
+        welkom.style.fontSize = "20px";
         welkom.style.paddingTop ="10px";
         welkom.style.left ="30%";
         }
